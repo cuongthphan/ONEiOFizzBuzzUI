@@ -1,0 +1,28 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  padding: 5px;
+  width: 500px;
+  height: 250px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.text {
+  margin-top: 10px;
+}
